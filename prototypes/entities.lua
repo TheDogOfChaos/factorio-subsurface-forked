@@ -26,6 +26,7 @@ for i=0,3,1 do
 	sealed_entrance.selection_box = {{0, 0}, {0, 0}}
 	sealed_entrance.collision_box = {{-1.4, -0.8}, {1.4, 1}}
 	if i == 3 then
+		sealed_entrance.flags = {"placeable-neutral", "hidden", "placeable-off-grid"}
 		sealed_entrance.collision_mask = {"water-tile"}
 		sealed_entrance.render_layer = "ground-patch"
 	end
