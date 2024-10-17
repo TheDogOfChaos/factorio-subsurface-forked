@@ -1,10 +1,10 @@
 {
-  "name": "Subsurface Forked",
+  "name": "Subsurface-Forked",
   "version": "1.0.0",
   "title": "Subsurface Forked",
   "author": "TheDogOfChaos",
   "homepage": "https://mods.factorio.com/mod/Subsurface",
   "factorio_version":"1.1",
-  "dependencies": ["? alien-biomes", "? aai-vehicles-miner", "? space-exploration", "? BlackMap-continued"],
+  "dependencies": ["? alien-biomes", "? aai-vehicles-miner", "? space-exploration", "? BlackMap-continued", "! Subsurface"],
   "description": "Adds the ability to dig the underground. Now forked to allow the deconstruction of sealed caves."
 }
